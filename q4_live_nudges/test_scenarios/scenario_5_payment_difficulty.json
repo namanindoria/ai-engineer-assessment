@@ -1,0 +1,21 @@
+{
+  "scenario_id": "SCENARIO-05-PAYMENT-DIFFICULTY",
+  "title": "Payment Hardship & Financial Distress Signal",
+  "description": "Customer expresses inability to meet premium payment deadline due to sudden cashflow hardship.",
+  "expected_signal": "PAYMENT_DIFFICULTY",
+  "expected_nudge_priority": "P1_HIGH",
+  "chunks": [
+    {
+      "speaker": "Agent",
+      "text": "Your quarterly health insurance premium of $680 is scheduled for automatic deduction next Tuesday."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Honestly, I lost some freelance work this month and I cannot afford to pay that right now. I don't have enough money in the account."
+    },
+    {
+      "speaker": "Agent",
+      "text": "I see. Let me check what options we have."
+    }
+  ]
+}

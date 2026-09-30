@@ -1,0 +1,29 @@
+{
+  "scenario_id": "SCENARIO-04-NOISY-SUPPRESSION",
+  "title": "Low-SNR Noisy Call & False Positive Suppression",
+  "description": "Low signal-to-noise ratio (10dB SNR) call with ambient street traffic, cellular packet drop, and casual small talk where spurious alerts must be strictly suppressed.",
+  "expected_signal": "NONE",
+  "expected_nudge_priority": "NONE",
+  "chunks": [
+    {
+      "speaker": "Agent",
+      "text": "Hello, thank you for holding. Can you hear me clearly through the static?",
+      "audio_wav": "q4_live_nudges/audio_chunks/chunk_05_noisy_smalltalk.wav"
+    },
+    {
+      "speaker": "Customer",
+      "text": "[background street traffic horn] Pretty good, just grabbing a cup of coffee near the avenue. Weather is okay. Can you check my file?",
+      "audio_wav": "q4_live_nudges/audio_chunks/chunk_05_noisy_smalltalk.wav"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Glad to hear that. Opening your record right now, please hold for just a few seconds.",
+      "audio_wav": "q4_live_nudges/audio_chunks/chunk_05_noisy_smalltalk.wav"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Sure thing, yeah take your time. [muffled ambient chatter]",
+      "audio_wav": "q4_live_nudges/audio_chunks/chunk_05_noisy_smalltalk.wav"
+    }
+  ]
+}

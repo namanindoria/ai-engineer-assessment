@@ -1,0 +1,151 @@
+{
+  "evaluations": [
+    {
+      "scenario_id": "SCENARIO-01-CROSS-SELL",
+      "title": "Missed Cross-Sell Opportunity (Second Vehicle)",
+      "expected_signal": "MISSED_CROSS_SELL",
+      "nudges_fired_count": 1,
+      "verdict": "PASS (Accurate Nudge Generated)",
+      "nudges": [
+        {
+          "nudge_id": "NDG-1790771139-001",
+          "priority": "P2_MEDIUM",
+          "category": "CROSS_SELL",
+          "title": "Cross-Sell Opportunity Detected",
+          "action_text": "\u2b50 Customer mentioned a second vehicle. Suggest the 15% Multi-Vehicle Family Bundle offer!",
+          "confidence": 0.96,
+          "evidence": "That looks pretty good. Yeah, my wife has a 2023 Honda CR-V that might need insurance next month too.",
+          "ttl_seconds": 30,
+          "created_at": 1790771139.110509,
+          "expires_at": 1790771169.110509,
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "scenario_id": "SCENARIO-02-COMPLIANCE-GAP",
+      "title": "Skipped Disclosure & Compliance Risk",
+      "expected_signal": "COMPLIANCE_GAP",
+      "nudges_fired_count": 1,
+      "verdict": "PASS (Accurate Nudge Generated)",
+      "nudges": [
+        {
+          "nudge_id": "NDG-1790771139-002",
+          "priority": "P0_CRITICAL",
+          "category": "COMPLIANCE",
+          "title": "Mandatory Disclosure Missing",
+          "action_text": "\ud83d\udea8 Remind the agent before proceeding: Read the mandatory 30-day cooling-off and free-look disclosure before collecting payment details!",
+          "confidence": 0.96,
+          "evidence": "Awesome! Go ahead and read me your credit card number so I can charge your card and bind the policy immediately.",
+          "ttl_seconds": 30,
+          "created_at": 1790771139.110509,
+          "expires_at": 1790771169.110509,
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "scenario_id": "SCENARIO-03-RISING-FRUSTRATION",
+      "title": "Customer Frustration & Escalation Risk",
+      "expected_signal": "RISING_FRUSTRATION",
+      "nudges_fired_count": 1,
+      "verdict": "PASS (Accurate Nudge Generated)",
+      "nudges": [
+        {
+          "nudge_id": "NDG-1790771139-003",
+          "priority": "P1_HIGH",
+          "category": "RETENTION_SENTIMENT",
+          "title": "Customer Frustration Rising",
+          "action_text": "\u26a0\ufe0f Acknowledge the concern before continuing: 'I understand your frustration with the system delay, let me personally take care of this right now.'",
+          "confidence": 0.98,
+          "evidence": "I already told you twice! Why does your system keep asking me? This is ridiculous and a complete waste of time!",
+          "ttl_seconds": 30,
+          "created_at": 1790771139.1115863,
+          "expires_at": 1790771169.1115863,
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "scenario_id": "SCENARIO-04-NOISY-SUPPRESSION",
+      "title": "Low-SNR Noisy Call & False Positive Suppression",
+      "expected_signal": "NONE",
+      "nudges_fired_count": 0,
+      "verdict": "PASS (Zero False Positives)",
+      "nudges": []
+    },
+    {
+      "scenario_id": "SCENARIO-05-PAYMENT-DIFFICULTY",
+      "title": "Payment Hardship & Financial Distress Signal",
+      "expected_signal": "PAYMENT_DIFFICULTY",
+      "nudges_fired_count": 1,
+      "verdict": "PASS (Accurate Nudge Generated)",
+      "nudges": [
+        {
+          "nudge_id": "NDG-1790771139-004",
+          "priority": "P1_HIGH",
+          "category": "PAYMENT_SUPPORT",
+          "title": "Payment Hardship Alert",
+          "action_text": "\ud83d\udca1 Offer an approved payment-support or quarterly split-billing path.",
+          "confidence": 0.86,
+          "evidence": "Honestly, I lost some freelance work this month and I cannot afford to pay that right now. I don't have enough money in the account.",
+          "ttl_seconds": 30,
+          "created_at": 1790771139.112101,
+          "expires_at": 1790771169.112101,
+          "status": "ACTIVE"
+        }
+      ]
+    }
+  ],
+  "latency_metrics": {
+    "sample_count": 16,
+    "metrics": {
+      "asr_transcription": {
+        "mean_ms": 0.01,
+        "min_ms": 0.0,
+        "max_ms": 0.02,
+        "p50_ms": 0.01,
+        "p90_ms": 0.01,
+        "p95_ms": 0.01,
+        "p99_ms": 0.02
+      },
+      "signal_extraction": {
+        "mean_ms": 0.05,
+        "min_ms": 0.0,
+        "max_ms": 0.3,
+        "p50_ms": 0.01,
+        "p90_ms": 0.11,
+        "p95_ms": 0.2,
+        "p99_ms": 0.28
+      },
+      "nudge_generation": {
+        "mean_ms": 0.0,
+        "min_ms": 0.0,
+        "max_ms": 0.02,
+        "p50_ms": 0.0,
+        "p90_ms": 0.01,
+        "p95_ms": 0.02,
+        "p99_ms": 0.02
+      },
+      "ui_delivery": {
+        "mean_ms": 0.02,
+        "min_ms": 0.01,
+        "max_ms": 0.05,
+        "p50_ms": 0.01,
+        "p90_ms": 0.04,
+        "p95_ms": 0.05,
+        "p99_ms": 0.05
+      },
+      "end_to_end": {
+        "mean_ms": 0.07,
+        "min_ms": 0.01,
+        "max_ms": 0.38,
+        "p50_ms": 0.03,
+        "p90_ms": 0.17,
+        "p95_ms": 0.27,
+        "p99_ms": 0.36
+      }
+    },
+    "suppressed_events_count": 0
+  }
+}

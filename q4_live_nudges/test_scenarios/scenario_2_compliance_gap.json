@@ -1,0 +1,12 @@
+{
+  "scenario_id": "SCENARIO-02-COMPLIANCE-GAP",
+  "title": "Skipped Disclosure & Compliance Risk",
+  "description": "Agent attempts to collect payment details without reciting mandatory statutory cooling-off disclosure.",
+  "expected_signal": "COMPLIANCE_GAP",
+  "expected_nudge_priority": "P0_CRITICAL",
+  "chunks": [
+    {"speaker": "Customer", "text": "Alright, that premium rate works for my budget."},
+    {"speaker": "Agent", "text": "Awesome! Go ahead and read me your credit card number so I can charge your card and bind the policy immediately."},
+    {"speaker": "Customer", "text": "Sure, it is 4242..."}
+  ]
+}

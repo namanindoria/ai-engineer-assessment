@@ -1,0 +1,12 @@
+{
+  "scenario_id": "SCENARIO-03-RISING-FRUSTRATION",
+  "title": "Customer Frustration & Escalation Risk",
+  "description": "Customer expresses rising annoyance over repetitive questions and system delays.",
+  "expected_signal": "RISING_FRUSTRATION",
+  "expected_nudge_priority": "P1_HIGH",
+  "chunks": [
+    {"speaker": "Agent", "text": "Can you please verify your policy number and date of birth once more?"},
+    {"speaker": "Customer", "text": "I already told you twice! Why does your system keep asking me? This is ridiculous and a complete waste of time!"},
+    {"speaker": "Agent", "text": "I apologize, let me check the database..."}
+  ]
+}
