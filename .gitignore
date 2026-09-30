@@ -1,0 +1,27 @@
+# Python byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & secrets
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# System and OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Testing and IDE caches
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+
+# Local logs
+*.log
