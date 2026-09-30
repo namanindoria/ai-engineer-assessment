@@ -1,0 +1,38 @@
+[
+  {
+    "call_id": "CALL-01-COOPERATIVE",
+    "category": "Cooperative",
+    "duration": "60s",
+    "state": "COMPLETED",
+    "kb_citations": 0,
+    "action": "LEAD_CREATED",
+    "status": "PASS"
+  },
+  {
+    "call_id": "CALL-02-OBJECTIONS",
+    "category": "Objection Handling",
+    "duration": "72s",
+    "state": "QUALIFICATION_DECISION",
+    "kb_citations": 2,
+    "action": "LEAD_CREATED",
+    "status": "PASS"
+  },
+  {
+    "call_id": "CALL-03-CONFLICTING-OUTOFSCOPE",
+    "category": "Conflicting & Safe Fallback",
+    "duration": "72s",
+    "state": "COLLECTING_PROFILE",
+    "kb_citations": 2,
+    "action": "NONE",
+    "status": "PASS"
+  },
+  {
+    "call_id": "CALL-04-HUMAN-ESCALATION",
+    "category": "Human Escalation",
+    "duration": "24s",
+    "state": "COLLECTING_PROFILE",
+    "kb_citations": 0,
+    "action": "NONE",
+    "status": "PASS"
+  }
+]

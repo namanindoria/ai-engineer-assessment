@@ -1,0 +1,74 @@
+{
+  "call_id": "CALL-02-OBJECTIONS",
+  "description": "Customer raising multiple objections (employer HMO overlap and plan cost) resolved via dynamic KB retrieval.",
+  "caller_profile": {
+    "name": "Sarah Jenkins",
+    "age": 42,
+    "category": "Objection Handling"
+  },
+  "call_duration_seconds": 72,
+  "final_state": "QUALIFICATION_DECISION",
+  "is_escalated": false,
+  "citations_used": [
+    "ApexCare Policy Corpus v1.0 | Source: website_faq_scrape_v1.html [Record: kb_objectio_024] | Category: objection_handling | Confidence: 83.8%",
+    "ApexCare Policy Corpus v1.0 | Source: internal_objection_scripts_2024.docx [Record: kb_objectio_023] | Category: objection_handling | Confidence: 91.6%"
+  ],
+  "crm_action": {
+    "success": true,
+    "action": "LEAD_CREATED",
+    "lead_id": "CRM-LEAD-2025-0002",
+    "crm_sync_status": "PROCESSED_200_OK",
+    "message": "Lead CRM-LEAD-2025-0002 successfully created and synced with sales queue."
+  },
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Initiated"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Welcome to ApexCare Global Health Shield. My name is Alex. I can verify your eligibility and prepare a customized coverage quote in just two minutes. To get started, may I have your name and age?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hello, my name is Sarah Jenkins, I'm 42 years old."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Got it, Sarah Jenkins. Do you or anyone you are enrolling have any ongoing pre-existing medical conditions, such as diabetes, hypertension, asthma, or recent surgeries?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Well, I already have an HMO through my company employer. Why should I buy ApexCare?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "That is a very important point. Based on our policy terms: Question: Why should I buy ApexCare if my company already provides basic HMO coverage? ApexCare is portable, provides up to $5M limit, is guaranteed renewable for life, and works alongside employer HMOs where the employer plan covers the deductible."
+    },
+    {
+      "speaker": "Customer",
+      "text": "ApexCare seems more expensive than local community health plans. Why does it cost more?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "That is a very important point. Based on our policy terms: Question: ApexCare seems more expensive than local community health plans. Why does it cost more?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "No pre-existing conditions for me."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Great news! Based on your profile, you are pre-qualified for the ApexCare Standard Shield with an Annual Maximum Benefit of $1,000,000. Your estimated rate starts at $232.17 per month with a $1,000 annual deductible. I have created lead record #CRM-LEAD-2025-0002 and dispatched the complete schedule of benefits to your email. Is there anything else I can clarify for you today?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "That actually makes total sense. Send me the quote!"
+    },
+    {
+      "speaker": "Agent",
+      "text": "I would be happy to help. Feel free to ask any question about our network hospitals, deductibles, or claims."
+    }
+  ],
+  "timestamp": "2026-09-30T17:55:39.090870"
+}

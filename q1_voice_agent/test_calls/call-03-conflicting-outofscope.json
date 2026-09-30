@@ -1,0 +1,68 @@
+{
+  "call_id": "CALL-03-CONFLICTING-OUTOFSCOPE",
+  "description": "Incomplete/conflicting details and out-of-scope question with safe fallback and exclusion citing.",
+  "caller_profile": {
+    "name": "Robert Vance",
+    "age": 69,
+    "category": "Conflicting & Safe Fallback"
+  },
+  "call_duration_seconds": 72,
+  "final_state": "COLLECTING_PROFILE",
+  "is_escalated": false,
+  "citations_used": [
+    "ApexCare Policy Corpus v1.0 | Source: policy_contract_exclusions.pdf [Record: kb_exclusio_027] | Category: exclusions_and_limits | Confidence: 96.6%",
+    "ApexCare Policy Corpus v1.0 | Source: underwriting_guidelines_dirty.txt [Record: kb_qualific_004] | Category: qualification_age_rules | Confidence: 56.1%"
+  ],
+  "crm_action": null,
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Initiated"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Welcome to ApexCare Global Health Shield. My name is Alex. I can verify your eligibility and prepare a customized coverage quote in just two minutes. To get started, may I have your name and age?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hey, I need a plan, I am 28 years old."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Got it, 28 years old. And may I have your full name so I can prepare your customized quote?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Wait, sorry, I made a mistake, I'm actually enrolling my father who is 69 years old."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Just to clarify, earlier you mentioned being 28, but you just stated 69. To make sure our underwriting evaluation is accurate, could you confirm your official date of birth?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Does ApexCare cover experimental gene therapy or overseas holistic treatments?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "According to Section 9 of our policy exclusions: Question: Does ApexCare cover experimental gene therapy or overseas holistic treatments? Experimental, investigational, or unproven therapies, as well as alternative holistic treatments (such as naturopathy or unaccredited overseas stem cell clinics), are strictly excluded under Section 9 of the general policy contract. We adhere strictly to verified allopathic treatments, so unproven procedures cannot be covered."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Can he get the Standard plan at age 69?"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Regarding our underwriting eligibility rules: Any lead aged over 65 attempting to purchase the Standard plan must be marked ineligible for Standard and redirected to Senior Golden Shield or declined. 1.1 Standard Health Shield entry age is minimum 18 years to maximum 65 years at next birthday."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Okay, thank you for clarifying that."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Got it, 69 years old. And may I have your full name so I can prepare your customized quote?"
+    }
+  ],
+  "timestamp": "2026-09-30T17:55:39.095553"
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "CALL-01-COOPERATIVE",
+  "description": "Cooperative customer completing standard qualification with CRM lead sync.",
+  "caller_profile": {
+    "name": "David Miller",
+    "age": 34,
+    "category": "Cooperative"
+  },
+  "call_duration_seconds": 60,
+  "final_state": "COMPLETED",
+  "is_escalated": false,
+  "citations_used": [],
+  "crm_action": {
+    "success": true,
+    "action": "LEAD_CREATED",
+    "lead_id": "CRM-LEAD-2025-0001",
+    "crm_sync_status": "PROCESSED_200_OK",
+    "message": "Lead CRM-LEAD-2025-0001 successfully created and synced with sales queue."
+  },
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Initiated"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Welcome to ApexCare Global Health Shield. My name is Alex. I can verify your eligibility and prepare a customized coverage quote in just two minutes. To get started, may I have your name and age?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hi, I'm calling to check health insurance options for myself."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you, Calling To. To verify your qualification, could you please confirm your current age?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "My name is David Miller and I am 34 years old."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Got it, David Miller. Do you or anyone you are enrolling have any ongoing pre-existing medical conditions, such as diabetes, hypertension, asthma, or recent surgeries?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "No pre-existing conditions, I run 5 miles every week and am in great health."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Great news! Based on your profile, you are pre-qualified for the ApexCare Standard Shield with an Annual Maximum Benefit of $1,000,000. Your estimated rate starts at $209.97 per month with a $1,000 annual deductible. I have created lead record #CRM-LEAD-2025-0001 and dispatched the complete schedule of benefits to your email. Is there anything else I can clarify for you today?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "That sounds reasonable. No further questions, thank you!"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Wonderful! Thank you for calling ApexCare Global Health. Have a healthy and pleasant day ahead!"
+    }
+  ],
+  "timestamp": "2026-09-30T17:55:39.070909"
+}

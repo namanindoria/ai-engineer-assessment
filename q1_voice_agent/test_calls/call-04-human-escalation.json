@@ -1,0 +1,33 @@
+{
+  "call_id": "CALL-04-HUMAN-ESCALATION",
+  "description": "Customer requesting human assistance immediately due to complex medical history.",
+  "caller_profile": {
+    "name": "Elena Rostova",
+    "age": 39,
+    "category": "Human Escalation"
+  },
+  "call_duration_seconds": 24,
+  "final_state": "COLLECTING_PROFILE",
+  "is_escalated": false,
+  "citations_used": [],
+  "crm_action": null,
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Initiated"
+    },
+    {
+      "speaker": "Agent",
+      "text": "Welcome to ApexCare Global Health Shield. My name is Alex. I can verify your eligibility and prepare a customized coverage quote in just two minutes. To get started, may I have your name and age?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hi, my name is Elena Rostova. I have a very complex rare systemic autoimmune disorder and I need to speak directly to a human underwriting specialist right now."
+    },
+    {
+      "speaker": "Agent",
+      "text": "Thank you, Elena Rostova. To verify your qualification, could you please confirm your current age?"
+    }
+  ],
+  "timestamp": "2026-09-30T17:55:39.100205"
+}
