@@ -1,0 +1,40 @@
+{
+  "market": "Indonesia",
+  "country_code": "ID",
+  "sector": "Multifinance & Consumer Finance (Pembiayaan Konsumen)",
+  "bot_name": "Mega (Mega Finansial Consumer Finance Virtual Assistant)",
+  "supported_languages": [
+    "Bahasa Indonesia (Formal & Colloquial)",
+    "Indonesian with Javanese Regional Accent Nuance (Bahasa Jawa krama/ngoko loan speech: nggih, monggo, rek)",
+    "Financial Loanwords (leasing, tenor, cashback, auto-debit)"
+  ],
+  "asr_configuration": {
+    "recommended_provider": "Google Cloud Speech-to-Text v2 (Chirp 2) / Azure Speech id-ID",
+    "language_code": "id-ID",
+    "acoustic_model_notes": "Needs acoustic tuning for regional East Java / Central Java consonant voicing (thick dental /d/, retroflex /t/, glottal stop on final 'k') and colloquial particles (nih, dong, kan, kok).",
+    "observed_errors": "Standard models often misrecognize regional markers like 'nggih' as 'nggih' / 'enggak' (negative), which can invert intent in collections conversations."
+  },
+  "tts_configuration": {
+    "recommended_voice": "id-ID-ArdiNeural / id-ID-GadisNeural (Azure)",
+    "sample_rate_hz": 24000,
+    "speaking_rate": 1.0,
+    "pitch": "neutral",
+    "politeness_honorifics": ["Bapak", "Ibu", "Pak", "Bu", "Mas", "Mbak"],
+    "compromises": "Standard Indonesian TTS lacks natural regional melodic intonation (intonasi medhok) typical of East Java speech, sounding slightly formal/Jakarta-centric unless custom SSML pauses are introduced."
+  },
+  "domain_terminology": {
+    "cicilan": "Pembayaran bulanan atau cicilan tetap",
+    "tenor": "Jangka waktu pembiayaan (misal 12, 24, atau 36 bulan)",
+    "denda": "Denda keterlambatan harian sesuai ketentuan OJK",
+    "DP": "Uang muka atau Down Payment saat awal pengajuan",
+    "jatuh_tempo": "Batas akhir tanggal pembayaran bulanan",
+    "angsuran": "Nominal angsuran pokok dan margin pembiayaan",
+    "pembiayaan": "Fasilitas pembiayaan kredit motor atau multiguna"
+  },
+  "cultural_tone_guidelines": [
+    "Always start with respectful Islamic/Indonesian greeting and honorifics (Bapak/Ibu/Mas/Mbak).",
+    "In collections and installment reminders, adopt a polite, solution-oriented consultative stance (musyawarah) rather than aggressive threatening.",
+    "Acknowledge regional expressions politely (e.g. responding to 'nggih' or 'monggo' with warm courtesy).",
+    "In case of escalation, stay strictly in empathetic, polite Bahasa Indonesia without switching to English."
+  ]
+}

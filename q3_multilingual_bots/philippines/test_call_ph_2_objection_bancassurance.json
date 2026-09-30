@@ -1,0 +1,42 @@
+{
+  "call_id": "CALL-PH-02",
+  "market": "Philippines",
+  "sector": "Bancassurance & Life Insurance",
+  "type": "Objection & Taglish Escalation",
+  "language": "Taglish",
+  "terms_used": [
+    "budget",
+    "lapse",
+    "policy",
+    "premium",
+    "specialist"
+  ],
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Connected"
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Magandang araw po! Ako po si Maria mula sa BPI-PhilCare Heritage Bancassurance. Tumatawag po ako kaugnay ng inyong inquiry sa ating life insurance coverage na may kasamang critical illness rider. Kumusta po kayo ngayon, Ma'am/Sir?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Medyo alanganin po ako kasi medyo tight ang budget ko ngayon, baka mag-lapse lang ang policy kung hindi ko mahulugan ang premium."
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Naiintindihan ko po kayo, Ma'am/Sir. Napaka-valid po ng concern ninyo lalo na sa panahon ngayon. Ang kagandahan po sa PhilCare Heritage plan natin, napaka-flexible po ng premium payment. May 31-day grace period po tayo kung sakaling ma-delay ang budget, at may Premium Holiday rider din para hindi po mag-lapse ang inyong coverage habang protektado pa rin ang inyong beneficiaries."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Gusto ko sana may makausap na totoong tao o branch specialist para mapaliwanag nang mas detalyado ang terms."
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Opo, nauunawaan ko po nang lubos, Ma'am/Sir. Huwag po kayong mag-alala, ililipat ko po kayo agad-agad sa ating licensed Bancassurance Financial Specialist mula sa inyong servicing branch. Sandali lang po, paki-hold lang po ang linya."
+    }
+  ],
+  "escalated_in_taglish": true,
+  "timestamp": "2026-09-30T17:55:39.103558"
+}

@@ -1,0 +1,37 @@
+{
+  "market": "Philippines",
+  "country_code": "PH",
+  "sector": "Bancassurance & Life Insurance",
+  "bot_name": "Maria (BPI-PhilCare Heritage Life Concierge)",
+  "supported_languages": ["Taglish (Filipino-English code-switching)", "Filipino/Tagalog", "Philippine English"],
+  "asr_configuration": {
+    "recommended_provider": "Azure Speech SDK / OpenAI Whisper large-v3",
+    "language_code": "fil-PH",
+    "secondary_language_codes": ["en-PH"],
+    "code_switching_mode": "multilingual_continuous",
+    "acoustic_model_notes": "Trained on Philippine English accented diphthongs and Tagalog enclitic particles (po, opo, naman, pala, kasi)."
+  },
+  "tts_configuration": {
+    "recommended_voice": "fil-PH-BlessicaNeural (Azure) / fil-PH-AngeloNeural",
+    "sample_rate_hz": 24000,
+    "speaking_rate": 1.05,
+    "pitch": "medium",
+    "politeness_honorifics": ["po", "opo", "Ma'am", "Sir"],
+    "compromises": "Code-switched Taglish sentences with technical English finance terms sometimes suffer from unnatural pitch shifts at language boundaries."
+  },
+  "domain_terminology": {
+    "premium": "Regular premium contribution / hulog buwan-buwan",
+    "policy": "Polisa o insurance contract",
+    "beneficiary": "Itinalagang tagapagmana o beneficiary (asawa, anak)",
+    "rider": "Karagdagang benepisyo o critical illness rider",
+    "lapse": "Pagkapaso o pagka-lapse ng polisa kung hindi nahulugan",
+    "coverage": "Kabuuang halaga ng proteksyon o sum insured",
+    "bank_referral": "Rekomendasyon mula sa branch manager ng bangko"
+  },
+  "cultural_tone_guidelines": [
+    "Always maintain respectful warmth using 'po' and 'opo' regardless of caller's age.",
+    "Frame insurance around family love, legacy, and saving loved ones from sudden financial hardship (malasakit).",
+    "Never pressure or shame customer when discussing tight budgets or delayed payments.",
+    "If customer escalates or shows distress, NEVER switch abruptly to cold corporate English; stay in empathetic, calming Taglish."
+  ]
+}

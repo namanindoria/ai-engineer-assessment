@@ -1,0 +1,57 @@
+{
+  "call_id": "CALL-PH-01",
+  "market": "Philippines",
+  "sector": "Bancassurance & Life Insurance",
+  "type": "Cooperative Taglish Cross-Sell",
+  "language": "Taglish (Filipino-English code-switching)",
+  "terms_used": [
+    "premium",
+    "beneficiary",
+    "rider",
+    "bank referral",
+    "auto-debit"
+  ],
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Connected"
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Magandang araw po! Ako po si Maria mula sa BPI-PhilCare Heritage Bancassurance. Tumatawag po ako kaugnay ng inyong inquiry sa ating life insurance coverage na may kasamang critical illness rider. Kumusta po kayo ngayon, Ma'am/Sir?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Hello po! Nag-inquire po ako sa branch manager ko sa BPI tungkol sa life insurance na may medical rider."
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Tama po kayo! Dahil bank referral po ito galing sa inyong branch manager, eligible po kayo sa zero-fee automatic debit arrangement mula sa inyong savings account. Hindi niyo na po kailangang pumila buwan-buwan para magbayad ng premium."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Gusto ko po sana ilagay ang dalawang anak ko bilang primary beneficiaries."
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Napakagandang plano po niyan, Ma'am/Sir. Pwedeng-pwede po nating ilagay ang inyong mga anak at asawa bilang primary beneficiaries. Guaranteed po na tax-free ang makukuhang coverage payout nila para sa kanilang education at kinabukasan kung may mangyari mang hindi inaasahan."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Pwede po ba itong i-auto-debit diretso sa aking BPI savings account para hassle-free?"
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Tama po kayo! Dahil bank referral po ito galing sa inyong branch manager, eligible po kayo sa zero-fee automatic debit arrangement mula sa inyong savings account. Hindi niyo na po kailangang pumila buwan-buwan para magbayad ng premium."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Salamat po! Malinaw na po ang lahat, paki-send na lang ng proposal summary."
+    },
+    {
+      "speaker": "Maria (Bot)",
+      "text": "Salamat po sa impormasyon. Nais niyo po ba nating ipa-process ang proposal summary sa inyong email o branch, o may iba pa po kayong nais itanong tungkol sa ating policy terms?"
+    }
+  ],
+  "timestamp": "2026-09-30T17:55:39.100205"
+}

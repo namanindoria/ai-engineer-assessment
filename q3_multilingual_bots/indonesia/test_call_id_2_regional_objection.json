@@ -1,0 +1,42 @@
+{
+  "call_id": "CALL-ID-02",
+  "market": "Indonesia",
+  "sector": "Consumer Finance",
+  "type": "Regional Accent Objection & Human Escalation",
+  "language": "Bahasa Indonesia with East Java Loan Nuance (nggih, monggo, dospundi)",
+  "terms_used": [
+    "denda",
+    "angsuran",
+    "pembiayaan",
+    "keringanan denda",
+    "customer service"
+  ],
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Connected"
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Halo, sugeng siang / selamat siang dengan Pak Joko? Saya Mega, asisten virtual dari Mega Finansial. Hanya ingin menginformasikan bahwa cicilan motor untuk nomor kontrak 88201 akan jatuh tempo pada tanggal 5 lusa sebesar Rp 1.250.000. Apakah ada yang bisa kami bantu terkait pembayaran angsuran bulan ini, Pak Joko?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nyuwun sewu mbak, anak kulo kemarin opname di rumah sakit, dospundi kok denda keterlambatan angsuran kulo kemahalan men?"
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Nggih, matur nuwun infonya Pak Joko, kami sangat memahami situasi darurat yang dialami. Mengenai denda keterlambatan, sistem kami memang menghitung denda harian sesuai aturan OJK. Namun karena Pak Joko memiliki riwayat pembayaran angsuran yang baik sebelumnya, kami bisa bantu ajukan permohonan keringanan denda atau restrukturisasi cicilan ke tim analis pembiayaan kami."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Nggih, kulo nyuwun tolong disambungkan langsung bicara sama manusia atau customer service cabang, saget mboten?"
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Baik, Pak Joko. Kami sangat memahami kebutuhan Pak Joko untuk berbicara langsung. Panggilan ini akan segera saya sambungkan langsung ke Petugas Layanan Pelanggan (Customer Service) Mega Finansial cabang terdekat. Mohon ditunggu sebentar nggih, jangan ditutup teleponnya."
+    }
+  ],
+  "escalated_in_indonesian": true,
+  "timestamp": "2026-09-30T17:55:39.107637"
+}

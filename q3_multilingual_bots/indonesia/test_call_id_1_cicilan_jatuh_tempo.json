@@ -1,0 +1,50 @@
+{
+  "call_id": "CALL-ID-01",
+  "market": "Indonesia",
+  "sector": "Consumer Finance",
+  "type": "Installment Reminder & Cross-Sell",
+  "language": "Bahasa Indonesia Colloquial",
+  "terms_used": [
+    "cicilan",
+    "jatuh tempo",
+    "angsuran",
+    "tenor",
+    "DP",
+    "pembiayaan"
+  ],
+  "transcript": [
+    {
+      "speaker": "Customer",
+      "text": "Call Connected"
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Halo, sugeng siang / selamat siang dengan Pak Budi? Saya Mega, asisten virtual dari Mega Finansial. Hanya ingin menginformasikan bahwa cicilan motor untuk nomor kontrak 88201 akan jatuh tempo pada tanggal 5 lusa sebesar Rp 1.250.000. Apakah ada yang bisa kami bantu terkait pembayaran angsuran bulan ini, Pak Budi?"
+    },
+    {
+      "speaker": "Customer",
+      "text": "Halo mbak, iya ini saya Pak Budi. Mau tanya, cicilan motor saya bulan ini bisa bayar di mana ya yang paling cepat?"
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Pembayaran angsuran sangat mudah kok, Pak Budi. Bisa langsung lewat Virtual Account BCA, Mandiri, atau tinggal tunjukkan nomor kontrak pembiayaan di kasir Indomaret maupun Alfamart terdekat. Struk pembayaran resmi akan langsung terbit dan cicilan langsung tercatat lunas real-time."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Kalau mau ambil pembiayaan kredit motor baru lagi dengan tenor 36 bulan dan DP murah apa bisa sekalian?"
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Kabar gembira, Pak Budi! Untuk pelanggan setia seperti Pak Budi, kami ada promo DP ringan mulai 10% dengan pilihan tenor panjang sampai 36 bulan untuk pembiayaan motor baru atau pinjaman dana multiguna. Proses verifikasinya cepat tanpa survei ulang."
+    },
+    {
+      "speaker": "Customer",
+      "text": "Sip mbak, matur nuwun infonya sangat membantu. Nanti sore saya bayar lewat Indomaret."
+    },
+    {
+      "speaker": "Mega (Bot)",
+      "text": "Sami-sami / sama-sama Pak Budi, matur nuwun kembali. Semoga urusannya selalu lancar dan rezekinya berkah. Selamat beraktivitas kembali nggih, salam sehat selalu dari Mega Finansial."
+    }
+  ],
+  "timestamp": "2026-09-30T17:55:39.105513"
+}
