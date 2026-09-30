@@ -14,20 +14,20 @@ This report documents our localized prototypes, acoustic/ASR benchmarking, neura
 
 ```mermaid
 flowchart TD
-    subgraph Philippines_Pipeline [Philippines Bancassurance Pipeline]
-        PH_Audio[Customer Taglish Audio] --> PH_ASR[Whisper large-v3 / Azure fil-PH]
-        PH_ASR --> PH_NLP[Code-Switching Intent & Entity Parser]
-        PH_NLP --> PH_Engine[Taglish Bancassurance Dialog Engine]
-        PH_Engine --> PH_TTS[Azure Neural fil-PH-Blessica]
-        PH_TTS --> PH_Out[Taglish Spoken Audio]
+    subgraph Philippines_Pipeline["Philippines Bancassurance Pipeline"]
+        PH_Audio["Customer Taglish Audio"] --> PH_ASR["Whisper large-v3 / Azure fil-PH"]
+        PH_ASR --> PH_NLP["Code-Switching Intent & Entity Parser"]
+        PH_NLP --> PH_Engine["Taglish Bancassurance Dialog Engine"]
+        PH_Engine --> PH_TTS["Azure Neural fil-PH-Blessica"]
+        PH_TTS --> PH_Out["Taglish Spoken Audio"]
     end
 
-    subgraph Indonesia_Pipeline [Indonesia Multifinance Pipeline]
-        ID_Audio[Customer Indonesian/Javanese Audio] --> ID_ASR[Google Cloud Chirp 2 / Azure id-ID]
-        ID_ASR --> ID_NLP[Colloquial & Regional Particle Parser]
-        ID_NLP --> ID_Engine[Consumer Finance Dialog Engine]
-        ID_Engine --> ID_TTS[Azure Neural id-ID-Ardi]
-        ID_TTS --> ID_Out[Indonesian Spoken Audio]
+    subgraph Indonesia_Pipeline["Indonesia Multifinance Pipeline"]
+        ID_Audio["Customer Indonesian/Javanese Audio"] --> ID_ASR["Google Cloud Chirp 2 / Azure id-ID"]
+        ID_ASR --> ID_NLP["Colloquial & Regional Particle Parser"]
+        ID_NLP --> ID_Engine["Consumer Finance Dialog Engine"]
+        ID_Engine --> ID_TTS["Azure Neural id-ID-Ardi"]
+        ID_TTS --> ID_Out["Indonesian Spoken Audio"]
     end
 ```
 

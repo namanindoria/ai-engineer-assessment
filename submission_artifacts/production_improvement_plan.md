@@ -20,7 +20,7 @@ flowchart TD
     SIP_GW["Telephony / SIP Trunk (Twilio, AudioCodes, Asterisk)"] --> WebRTC_Media["Media Server Cluster (LiveKit / Janus WebRTC)"]
     WebRTC_Media -->|Opus RTP Audio Stream| Kafka_Ingress["Kafka Audio Chunk Bus (Partitioned by Call ID)"]
     
-    subgraph ASR_Inference_Cluster [Distributed ASR Farm]
+    subgraph ASR_Inference_Cluster["Distributed ASR Farm"]
         Kafka_Ingress --> Triton_ASR["NVIDIA Triton Server Farm<br/>(TensorRT-LLM Whisper / Distil-Whisper ONNX)"]
         Triton_ASR --> GPU_Workers["Auto-scaling L4 / A10G GPU Nodes"]
     end
