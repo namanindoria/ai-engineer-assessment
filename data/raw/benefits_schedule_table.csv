@@ -1,0 +1,15 @@
+Category,Plan Tier,Benefit Item,Coverage Limit,Deductible / Excess Applicable,Underwriting Notes
+Inpatient,Standard,Annual Overall Limit,"$1,000,000 per policy year",Standard $1000 excess,Entry age 18-65
+Inpatient,Premier,Annual Overall Limit,"$2,500,000 per policy year",Optional $0 or $1000 excess,Entry age 18-65
+Inpatient,Elite Diamond,Annual Overall Limit,"$5,000,000 per policy year",Optional $0 or $1000 excess,Entry age 18-65
+Room & Board,Standard,Room Category,"Semi-Private Room (up to $400/day)",Included in annual cap,ICU covered 100%
+Room & Board,Premier,Room Category,"Single Deluxe Room (up to $900/day)",Included in annual cap,ICU covered 100%
+Room & Board,Elite Diamond,Room Category,"Executive Suite (up to $2500/day)",Included in annual cap,Companion bed included
+Outpatient / OPD,Standard,Specialist Consultations,Not Covered without rider,N/A,Requires OPD Addon
+Outpatient / OPD,Premier,Specialist Consultations,"Up to $150/visit, max 15 visits/yr","$50 copay per visit",In-network specialists
+Outpatient / OPD,Elite Diamond,Specialist Consultations,"100% covered, unlimited reasonable charges","$0 copay",Global concierge booking
+Emergency,All Tiers,Emergency Evacuation & Repatriation,"$250,000 per event","$0 deductible",Global emergency response
+Emergency,All Tiers,Emergency Evacuation & Repatriation,"$250,000 per event","$0 deductible",Duplicate record from legacy schedule
+Maternity,Premier & Elite,Complications of Pregnancy,"$50,000 per pregnancy",Subject to plan deductible,12-month waiting period
+Prescription Drugs,All Tiers,Post-Hospitalization Medication,Covered up to 90 days discharge,Included in hospital claim,Formulary drugs only
+Exclusions,All Tiers,Cosmetic and Plastic Surgery,Zero Coverage (Strict Exclusion),N/A,Except reconstructive surgery post-accident

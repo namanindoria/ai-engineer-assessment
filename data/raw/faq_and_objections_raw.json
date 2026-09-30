@@ -1,0 +1,50 @@
+[
+  {
+    "faq_id": "RAW-FAQ-01",
+    "question": "Why should I buy ApexCare private health insurance if I already have basic HMO or group coverage from my employer?",
+    "answer": "Employer group insurance is tied directly to your employment and typically has low limits (often capped at $20,000-$50,000), which can be wiped out in a single major hospitalization. If you leave your job, retire, or become too ill to work, employer coverage immediately ceases. ApexCare provides high-limit portable coverage (up to $5,000,000) that stays with you regardless of job changes and is guaranteed renewable for life. Furthermore, you can use your employer HMO to pay the deductible, giving you zero out-of-pocket expenses while preserving high-tier private room access.",
+    "category": "objection_handling",
+    "source_file": "internal_objection_scripts_2024.docx",
+    "last_reviewed": "2024-10-10"
+  },
+  {
+    "faq_id": "RAW-FAQ-02",
+    "question": "ApexCare seems more expensive than local community health plans. Why does it cost more?",
+    "answer": "ApexCare is an international-grade comprehensive inpatient and surgical policy with uncapped ICU coverage, direct cashless settlement at over 14,500 hospitals worldwide, and no internal sub-limits on surgery or specialist fees. Cheaper community plans often have strict surgical sub-limits, require large out-of-pocket balance billing, and exclude top-tier medical centers. Furthermore, clients can select a deductible (excess) option of $1,000 or $2,500 to reduce annual premiums by up to 38% without sacrificing catastrophic medical protection.",
+    "category": "objection_handling",
+    "source_file": "internal_objection_scripts_2024.docx",
+    "last_reviewed": "2024-10-10"
+  },
+  {
+    "faq_id": "RAW-FAQ-03",
+    "question": "Why should I buy ApexCare if my company already provides basic HMO coverage?",
+    "answer": "Employer group coverage is tied to employment and usually has low maximum limits ($20k-$50k) that get depleted quickly in serious illness. ApexCare is portable, provides up to $5M limit, is guaranteed renewable for life, and works alongside employer HMOs where the employer plan covers the deductible.",
+    "category": "objection_handling",
+    "source_file": "website_faq_scrape_v1.html",
+    "last_reviewed": "2024-08-01"
+  },
+  {
+    "faq_id": "RAW-FAQ-04",
+    "question": "Are you a robot or an artificial intelligence?",
+    "answer": "I am ApexCare's automated AI voice assistant designed to help verify your eligibility, answer plan coverage questions, and route you to an underwriting specialist. While I am an AI, everything I share is grounded in our official underwriting rules, and I can transfer you to a human licensed specialist at any point if you prefer.",
+    "category": "voice_interaction_faq",
+    "source_file": "call_script_guidelines.pdf",
+    "last_reviewed": "2024-12-01"
+  },
+  {
+    "faq_id": "RAW-FAQ-05",
+    "question": "How does the cashless hospitalization settlement work when I check into a hospital?",
+    "answer": "Present your ApexCare Digital Membership Card and photo ID at any network hospital admission desk. For planned procedures, submit pre-authorization 48 hours prior. For emergencies, notify within 24 hours. The medical provider bills ApexCare Third Party Administrator (TPA) directly. You only pay any selected deductible and non-medical incidentals upon discharge.",
+    "category": "claims_and_operations",
+    "source_file": "claims_handbook_2025.pdf",
+    "last_reviewed": "2024-11-20"
+  },
+  {
+    "faq_id": "RAW-FAQ-06",
+    "question": "Does ApexCare cover experimental gene therapy or overseas holistic treatments?",
+    "answer": "Official policy statement: ApexCare adheres strictly to FDA and national medical board approved allopathic treatments. Experimental, investigational, or unproven therapies, as well as alternative holistic treatments (such as naturopathy or unaccredited overseas stem cell clinics), are strictly excluded under Section 9 of the general policy contract.",
+    "category": "exclusions_and_limits",
+    "source_file": "policy_contract_exclusions.pdf",
+    "last_reviewed": "2024-11-01"
+  }
+]

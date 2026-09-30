@@ -1,0 +1,48 @@
+# APEXCARE UNDERWRITING POLICY & ELIGIBILITY MANUAL
+Revision Date: 15th Nov 2024 (Also referenced in field guide as 2024-11-15 and 11/15/2024)
+Author: Medical Risk Assessment Committee
+Classification: Internal Underwriter Reference
+
+SECTION 1: AGE ELIGIBILITY AND ENTRY RULES
+1.1 Standard Health Shield entry age is minimum 18 years to maximum 65 years at next birthday.
+1.2 Children from age 30 days to 24 years may be enrolled as dependent riders under an adult policyholder, provided they are full-time students.
+1.3 Senior Extension: Applicants aged 66 through 75 cannot enroll in the Standard or Premier Health Shield. They must be routed to the ApexCare Senior Golden Shield, which requires specialized geriatric medical exams and carries a mandatory 25% co-payment. Any lead aged over 65 attempting to purchase the Standard plan must be marked ineligible for Standard and redirected to Senior Golden Shield or declined.
+1.4 Guaranteed Renewability: Once enrolled prior to age 65, coverage is guaranteed renewable for life regardless of future claims, provided premiums are paid within the 31-day grace period.
+
+SECTION 2: PRE-EXISTING CONDITIONS AND WAITING PERIODS
+(Note: in internal notes referred to as 'pre-existing baseline', 'PEC', and 'chronic conditions')
+2.1 Initial Waiting Period: General illness has a mandatory 30-day waiting period from the policy inception date. Accidents have zero waiting period (effective from hour zero).
+2.2 Specified Serious Illnesses: A 120-day waiting period applies to elective procedures such as hernia repair, cholecystectomy (gallstones), tonsillectomy, and non-emergency spinal surgeries.
+2.3 Pre-Existing Conditions (PEC): Any medical condition diagnosed, treated, or manifesting symptoms within 24 months prior to policy issuance is subject to a 24-month continuous coverage waiting period. 
+2.4 Cardiac and Cardiovascular conditions (hypertension with medication, coronary artery disease) are covered after the 24-month PEC waiting period subject to a standard 20% underwriting excess/deductible loading, provided there was no heart attack or bypass within 3 years prior to enrollment.
+
+[CORRUPTED_PARAGRAPH_ENCODING_ERROR: \x00\xff\xfe\x00 NULL_BYTE_FAILURE in OCR scanner on source document leaf #48. Incomplete text recovered: "...applicant with uncontrolled diabetes type 1 HbA1c > 9.5 ... [UNPARSEABLE_DATA_CORRUPT]"]
+
+SECTION 3: OUTPATIENT, OPD, AND DENTAL RULES
+Terminology Note: In contract schedules, Outpatient services are designated as 'OPD' (Outpatient Department) or 'Ambulatory Care'. 
+3.1 Ambulatory specialist consultations are covered up to $150 per visit (up to 15 visits per policy year) under the Premier and Elite tiers only. Not covered under Standard plan unless Emergency Outpatient Rider is attached.
+3.2 Routine Dental checkups and prophylaxis are excluded from baseline coverage. Accidental emergency dental damage occurring due to sound natural teeth trauma is covered under inpatient surgical emergency benefit.
+
+SECTION 4: DEDUCTIBLE (EXCESS) OPTIONS AND COPAYS
+Terminology Note: Regional documents refer to Deductible as 'Excess'. They denote the exact same financial threshold.
+4.1 The standard policy deductible is $1,000 per policy year.
+4.2 High-deductible options: Insured may select a $2,500 or $5,000 excess to reduce their monthly premium by 22% and 38% respectively.
+4.3 Zero Deductible Option: Available on Premier and Elite tiers for an additional 15% surcharge.
+
+SECTION 5: UNDERWRITER SAMPLE AUDIT LOGS (PII WARNING - DO NOT PUBLISH RAW)
+Case Study A-102 (Internal sample test case):
+Applicant: Johnathan Miller Doe
+SSN: 482-12-9912
+Date of Birth: 04/12/1982
+Personal Email: jdoe.private.finance@gmail.com
+Direct Cell: +1-555-839-2019
+Residential Address: 742 Evergreen Terrace, Springfield, IL 62704
+Pre-existing: Controlled Mild Asthma (Albuterol inhaler 2x/week)
+Underwriter Verdict: Approved Standard Tier with Asthma Rider (exemption on inpatient asthma attacks for first 12 months), Premium: $210/mo, Policy Reference #APX-POL-902184-B.
+
+Case Study B-309 (Declined case):
+Applicant: Maria Consuela Santos
+SSN: 391-44-1029
+Email: msantos_tech@yahoo.com
+Mobile: +1-555-492-3810
+Notes: Age 69 years, seeking Standard Health Shield. Declined due to exceeding maximum age 65 cutoff. Referred to Senior Golden Shield underwriting hotline.

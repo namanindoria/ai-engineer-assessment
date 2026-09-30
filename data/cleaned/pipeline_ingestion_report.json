@@ -1,0 +1,14 @@
+{
+  "ingested_files": [
+    "apexcare_marketing_page.html",
+    "underwriting_guidelines_dirty.txt",
+    "benefits_schedule_table.csv",
+    "faq_and_objections_raw.json"
+  ],
+  "stripped_boilerplates": 4,
+  "corrupted_sections_flagged": 1,
+  "duplicates_removed": 1,
+  "pii_redacted_count": 1,
+  "total_records_indexed": 27,
+  "timestamp": "2026-09-30T17:55:38.929951"
+}
